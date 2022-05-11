@@ -13,7 +13,11 @@
 이번 실습도 2주차와 마찬가지로 3차에 걸쳐서 진행됩니다! 마지막까지 열심히 진행해보시죠 ㅎㅎ 
 
 # 실습 1번문제
- useState의 방법에 대해서 아주 간략하게 익혀 봅니다! 해당하는 빈칸을 채워서 name과 nickname 을 입력받아 봅시다!
+ useState의 방법에 대해서 아주 간략하게 익혀 봅니다!<br> 
+ ![image](https://user-images.githubusercontent.com/77886826/167911379-d2877351-6507-4c26-8b49-fbb647980b0d.png)<br> 
+ ![image](https://user-images.githubusercontent.com/77886826/167911449-35a018d5-8405-42d2-ad4c-56e88af3a5e8.png)<br> 
+
+주석을 채워서 name과 nickname 을 입력받아 봅시다!
 해당하는 페이지는 /component/input 페이지 입니다.
  
 ex) <br>
