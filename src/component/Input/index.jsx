@@ -35,13 +35,13 @@ function InputSample() {
         <input
           name="name"
           placeholder="이름"
-          onChange={onChange}
+          // onChange={}
           //   value={}
         />
         <input
           name="nickname"
           placeholder="닉네임"
-          onChange={onChange}
+          // onChange={}
           //   value={}
         />
         <button onClick={onReset}>초기화</button>
