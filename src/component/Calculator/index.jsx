@@ -35,19 +35,21 @@ const Button = styled.button`
 
 const Calculator = () => {
   const [calculateValue, setCalculateValue] = useState("");
-  const [value, updateValue] = useState("");
+  const [display, setDisplay] = useState(false);
 
   const onReset = () => {
     setCalculateValue("");
   };
 
-  const display = () => {
-    setCalculateValue(eval(calculateValue.replace("x", "*")));
+  const updateValue = (value) => {
+    setCalculateValue(calculateValue + value);
   };
 
   useEffect(() => {
-    setCalculateValue((prev) => prev + value);
-  }, [value]);
+    if (calculateValue !== "") {
+      setCalculateValue(eval(calculateValue.replace("x", "*")));
+    }
+  }, [display]);
 
   return (
     <CalculatorWrapper>
@@ -97,7 +99,7 @@ const Calculator = () => {
       <Button margin="-2px 0 0 -2px" onClick={() => updateValue("+")}>
         +
       </Button>
-      <Button margin="-2px 0 0 -2px" onClick={display}>
+      <Button margin="-2px 0 0 -2px" onClick={() => setDisplay(!display)}>
         =
       </Button>
     </CalculatorWrapper>
