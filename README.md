@@ -82,5 +82,9 @@ https://user-images.githubusercontent.com/77886826/168815930-c19399fc-e6b8-43e8-
 - pr 의 제목은 | [내이름] 제목 |으로 합니다.
 ex) [이성인] 리엑트는 너무 재밋어!
 
+# 결과 영상
+
+
+https://user-images.githubusercontent.com/103057334/169693679-58a10c94-7d1a-404e-b0e3-504fbe2a70f2.mp4
 
 
