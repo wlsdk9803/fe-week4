@@ -1,19 +1,11 @@
 # 멋쟁이 사자처럼 10기 FE 4주차 과제 🦁
+react 실습 세번째!
+react hook!
 
-반갑습니다 여러분!!☺️ 
-벌써 react의 정말 재밌는! 필수적인 요소인 hooks를 다뤄보는 시간입니다!
-
-# 실습 진행방법 
-기존의 실습들과 동일하게 진행됩니다
- - 이 레포를 fork 한다!
- - fork하여 이동한 자신의 레포에서 깃크라켄을 통해 클론을 받습니다.
- - 클론을 받은 파일을 vs 코드에서 엽니다!
- - vs 코드에서 터미널을 열어서 npm i 후 npm run start 를 입력하면 코드가 실행됩니다!
- 
-이번 실습도 2주차와 마찬가지로 3차에 걸쳐서 진행됩니다! 마지막까지 열심히 진행해보시죠 ㅎㅎ 
-
-# 실습 1번문제
- InputSample 컴포넌트는 name과 nickname을 입력받아서 render시키는 컴포넌트 입니다. 해당 기능을 수행하기 위해 주석이 있는 부분을 채워 기능을 완성시켜 봅시다<br> 
+## 문제 1번 <InputSample 컴포넌트 완성하기>
+### 문제?
+ InputSample 컴포넌트는 name과 nickname을 입력받아서 render시키는 컴포넌트이다.<br>
+ 아래와 같이 해당 기능을 수행하기 위해 주석이 있는 부분을 채워 기능을 완성시킨다.<br> 
  ![image](https://user-images.githubusercontent.com/77886826/167911379-d2877351-6507-4c26-8b49-fbb647980b0d.png)<br> 
  ![image](https://user-images.githubusercontent.com/77886826/167911449-35a018d5-8405-42d2-ad4c-56e88af3a5e8.png)<br> 
 
