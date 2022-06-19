@@ -88,7 +88,7 @@ https://user-images.githubusercontent.com/77886826/168815930-c19399fc-e6b8-43e8-
 - 그리고 calculateValue에 값이 들어있는 경우에 한해, display 값이 변경되면 결과 창에 입력되어 있는 식을 계산하여 그 결과를 출력!<br>
   이 과정에서 'x'는 * 연산자로 바꿔주고, 식 결과를 계산하는 과정은 eval 함수를 이용한다.
 
-# 이제 실행 결과를 확인하자!
+## 실행 결과
 
 
 https://user-images.githubusercontent.com/103057334/169693679-58a10c94-7d1a-404e-b0e3-504fbe2a70f2.mp4
