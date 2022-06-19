@@ -10,7 +10,7 @@ react hook!
 
 ![image](https://user-images.githubusercontent.com/77886826/167907952-0b89c5e1-db78-40c0-90f6-8e2ee8b54d88.png)
 
-#### 이것이 현재 위치...목표는?
+#### :point_up:이것이 현재 위치...목표는?
 
 https://user-images.githubusercontent.com/77886826/167908055-e3287bcf-5176-4188-8222-0773abc215d5.mov
 
