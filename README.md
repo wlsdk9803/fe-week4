@@ -40,6 +40,7 @@ name과 nickname을 입력 받으면 수정되도록!
 ![problem](https://user-images.githubusercontent.com/103057334/174483353-e7847116-70c2-4208-a924-1d1a6a762194.png)
 
 <br>
+
 - 주석 그대로...
 - 기존의 경고 문구는 deps에 count라는 변수가 없어서 발생하는 것!
 - 따라서 이 count를 prev라는 변수에 저장하고, arrow function을 통해 이 변수가 항상 새로운 상태를 받아들이도록 한다.
