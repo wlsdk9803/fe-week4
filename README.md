@@ -80,11 +80,17 @@ https://user-images.githubusercontent.com/77886826/168815930-c19399fc-e6b8-43e8-
 ##### 이제 Calculator에서 이를 이용하여 계산기 형태 구현!
 
 #### 이제 계산기 기능을 구현해보자...
-- 
+- calculateValue와 display는 각각 setCalculateValue, setDisplay 함수로 설정<br>
+  이때 초기화 값은 각각 ""와 false
+- @ 버튼을 누르면 onReset 함수가 호출되고, 이 함수는 calculateValue를 ""로 초기화 한다.
+- @와 = 이외의 버튼을 누르면 updateValue 함수가 호출되고, 이 함수는 기존의 calculateValue에 입력한 값을 더해 calculateValue 값을 다시 설정한다.
+- = 버튼을 누르면 display 값이 변한다. 즉, 기존의 값이 false라면 true로, true라면 false로!
+- 그리고 calculateValue에 값이 들어있는 경우에 한해, display 값이 변경되면 결과 창에 입력되어 있는 식을 계산하여 그 결과를 출력!<br>
+  이 과정에서 'x'는 * 연산자로 바꿔주고, 식 결과를 계산하는 과정은 eval 함수를 이용한다.
 
-# 결과 영상
+# 이제 실행 결과를 확인하자!
 
 
 https://user-images.githubusercontent.com/103057334/169693679-58a10c94-7d1a-404e-b0e3-504fbe2a70f2.mp4
 
-
+<br> 모두 잘 실행되는 것을 확인할 수 있다.
